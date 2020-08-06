@@ -1,2 +1,2 @@
 # Computer Science
-Previous solo or team projects
+Previous solo or team applications
