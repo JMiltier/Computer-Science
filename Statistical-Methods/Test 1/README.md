@@ -181,9 +181,9 @@ And getting the mean values:
 	`> mean(VHNRSUMAVE)`  
 		[1] 1079.734  
 		
-Results in:
-`11.37% of 3599.048 = 409.212 (~)`
-`0.022% of 1079.734 = .2375 (~)`
+Results in:  
+`11.37% of 3599.048 = 409.212 (~)`  
+`0.022% of 1079.734 = .2375 (~)`  
 The 8 vehicles/hour was not factored since it’s nearly impossible to occur.  
 
 Thus, about a total of 410 cars per day, on average, will pay extra even if the total amount in 30 minutes is less than 350.
