@@ -147,3 +147,9 @@ sd(tollPriceList)
 	[1] 3.828294  
 `> sd(tollPriceList)`
 	[1] 0.01317745
+
+I then sampled a random set given the averages of 10/min vehicles during rush hour, 3/min during between 10AM and 4PM, and 3/hr otherwise. For the 3/hr, I simply factored it over an hour instead of 30 minutes since it is extremely unlikely that there will be more than 325 cars in 30 minutes. I did this for only one day, not for 5 times to consider 5 days. If I did this, the other prices resulted in:  
+	$3.83, $3.83, $3.85, $3.84, $3.82, $3.83, $3.84, etc.  
+For this, a for loop was placed to run the code and store it into an array. These numbers resemble each other very closely. Rough example below:
+
+![toll prices](toll-prices.png)
