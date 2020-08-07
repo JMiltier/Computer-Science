@@ -31,7 +31,7 @@ The histogram shows that a student typically slept 5 to 8 hours, with the highes
 
 A value that initially sticks out immediately is the max value of 310, which is incorrect since there is only 307 data values after removing the 3 errors. Though the main information desired is the data based around the hours of sleep. The mean is more specific here as it was difficult to see on the box-plot. It also confirms the whole number values for which the box-plot portrayed. While the histogram showed the frequency “at-a-glance”, the box-plot provided more visual information which more mimics the summary information above.
 
-
+----------
 ### Toll through-put during different traffic patterns
 Upfront:  I believe it’s fair to assume that there is no traffic jams and the flow of traffic does not slow during the rush hour times. Other factors such as wrecks, construction, or other delays are also ignored. 
 
@@ -169,3 +169,21 @@ For this, a for loop was placed to run the code and store it into an array. Thes
 
 With this data, 11.37% of the rush hour traffic will pay more when traffic is greater than 325 but less than 350. 
 Only 0.022% of those traveling between 10AM and 4PM (non-rush hours) will pay more.
+
+#### Conclusion:
+Counting the cars for a random sample of 10,000:
+	`VEHSUMAVE[i] = (VEHSUM)`  
+	`VHNRSUMAVE[i] = (VHNRSUM)`  
+	
+And getting the mean values:  
+	`> mean(VEHSUMAVE)`  
+		[1] 3599.048  
+	`> mean(VHNRSUMAVE)`  
+		[1] 1079.734  
+		
+Results in:
+`11.37% of 3599.048 = 409.212 (~)`
+`0.022% of 1079.734 = .2375 (~)`
+The 8 vehicles/hour was not factored since it’s nearly impossible to occur.  
+
+Thus, about a total of 410 cars per day, on average, will pay extra even if the total amount in 30 minutes is less than 350.
