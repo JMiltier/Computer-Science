@@ -36,23 +36,23 @@ A value that initially sticks out immediately is the max value of 310, which is 
 Upfront:  I believe it’s fair to assume that there is no traffic jams and the flow of traffic does not slow during the rush hour times. Other factors such as wrecks, construction, or other delays are also ignored. 
 
 ```R
-	#chance of having more than 325 vehicles per 30 min, during rush hour (7AM-10AM, 4PM-7PM)
-	#the average is 10/min, the chances of having more than 325 in a 30 minute period:
-	ppois((325/30), lambda = 10, lower=FALSE) 
+#chance of having more than 325 vehicles per 30 min, during rush hour (7AM-10AM, 4PM-7PM)
+#the average is 10/min, the chances of having more than 325 in a 30 minute period:
+ppois((325/30), lambda = 10, lower=FALSE) 
 ```
 [1] 0.4169602   
 
 ```R
-	#chance of having more than 325 vehicles per 30 min, during non-rush hour (10AM-4PM)
-	#the average is 3/min, the chances of having more than 325 in a 30 minute period
-	ppois((325/30), lambda = 3, lower=FALSE) 
+#chance of having more than 325 vehicles per 30 min, during non-rush hour (10AM-4PM)
+#the average is 3/min, the chances of having more than 325 in a 30 minute period
+ppois((325/30), lambda = 3, lower=FALSE) 
 ```
 [1] 0.000292337  
 
 ```R
-	#chance of having more than 325 vehicles per 30 min, during all other hours
-	#the average is 8/hr, the chances of having more than 325 in a 30 minute period
-	ppois((325/30), lambda = 8/60, lower=FALSE)
+#chance of having more than 325 vehicles per 30 min, during all other hours
+#the average is 8/hr, the chances of having more than 325 in a 30 minute period
+ppois((325/30), lambda = 8/60, lower=FALSE)
 ```
 [1] 5.249437e-18  
 
