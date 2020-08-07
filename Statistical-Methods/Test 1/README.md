@@ -1,4 +1,4 @@
-##### Determining the hours of sleep for college students for one night
+#### Determining the hours of sleep for college students for one night
  - Removed three erroneous data points:
   	1. person: 101, hours: 70
   	2. person: 151, hours: 50
@@ -17,7 +17,7 @@ boxplot(sleepData[,2], horizontal = TRUE, xlab="Number of hours selpt", main="Sl
 
 The histogram shows that a student typically slept 5 to 8 hours, with the highest percentage of the student receiving 7 hours of sleep. The histogram does not show the student which didn’t sleep at all. With the box-plot, it shows the zero hours slept as well as the median and mean (though they are very closely related). It also shows the “middle 50%” between the 1st and 3rd quartile range.
 
-###### Summary of sleep data
+##### Summary of sleep data
 `summary(sleepData)`
 
 |         | person  | hours   |
