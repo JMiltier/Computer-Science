@@ -1,8 +1,8 @@
 Determining the hours of sleep for college students for one night
  - Removed three erroneous data points:
-  1. person: 101, hours: 70
-  2. person: 151, hours: 50
-  3. person: 250, hours: -5
+  	1. person: 101, hours: 70
+  	2. person: 151, hours: 50
+  	3. person: 250, hours: -5
 - A total sample of 307 college students remains, instead of 310.
 
 ```R
