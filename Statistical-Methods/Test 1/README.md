@@ -144,6 +144,6 @@ mean(tollPriceList)
 sd(tollPriceList)
 ```
 `> mean(tollPriceList)`
-	[1] 3.828294
+	[1] 3.828294  
 `> sd(tollPriceList)`
 	[1] 0.01317745
