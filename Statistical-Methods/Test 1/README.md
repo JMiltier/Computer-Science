@@ -13,7 +13,7 @@ hist(sleepData[,2], breaks = 12, main ="Hours of sleep for College Student last 
 boxplot(sleepData[,2], horizontal = TRUE, xlab="Number of hours selpt", main="Sleep time for College Students")
 ```
 
-![sleep-diagrams](/sleep-diagrams.png)
+![sleep-diagrams](sleep-diagrams.png)
 
 The histogram shows that a student typically slept 5 to 8 hours, with the highest percentage of the student receiving 7 hours of sleep. The histogram does not show the student which didn’t sleep at all. With the box-plot, it shows the zero hours slept as well as the median and mean (though they are very closely related). It also shows the “middle 50%” between the 1st and 3rd quartile range.
 
