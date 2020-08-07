@@ -153,3 +153,19 @@ I then sampled a random set given the averages of 10/min vehicles during rush ho
 For this, a for loop was placed to run the code and store it into an array. These numbers resemble each other very closely. Rough example below:
 
 ![toll prices](toll-prices.png)
+
+#### Who pays more in toll prices?
+```R
+#For rush hours
+(ppois((350/30), lambda = 10))-(1-(ppois((325/30), lambda = 10, lower=FALSE)))
+```
+[1] 0.1137364   
+
+```R
+#For 10AM to 4PM
+(ppois((350/30), lambda = 3))-(1-(ppois((325/30), lambda = 3, lower=FALSE)))
+```
+[1] 0.0002209503
+
+With this data, 11.37% of the rush hour traffic will pay more when traffic is greater than 325 but less than 350. 
+Only 0.022% of those traveling between 10AM and 4PM (non-rush hours) will pay more.
