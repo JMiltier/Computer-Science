@@ -29,4 +29,30 @@ The histogram shows that a student typically slept 5 to 8 hours, with the highes
 | 3rd Qu. | 232.5   | 8.000   |
 | Max.    | 310.0   | 12.000  |
 
-A value that initially sticks out immediately is the max value of 310, which is incorrect since there is only 307 data values after removing the 3 errors. Though the main information desired is the data based around the hours of sleep. The mean is more specific here as it was difficult to 	see on the box-plot. It also confirms the whole number values for which the box-plot portrayed. While the histogram showed the frequency “at-a-glance”, the box-plot provided more visual information which more mimics the summary information above.
+A value that initially sticks out immediately is the max value of 310, which is incorrect since there is only 307 data values after removing the 3 errors. Though the main information desired is the data based around the hours of sleep. The mean is more specific here as it was difficult to see on the box-plot. It also confirms the whole number values for which the box-plot portrayed. While the histogram showed the frequency “at-a-glance”, the box-plot provided more visual information which more mimics the summary information above.
+
+
+### Toll through-put during different traffic patterns
+Upfront:  I believe it’s fair to assume that there is no traffic jams and the flow of traffic does not slow during the rush hour times. Other factors such as wrecks, construction, or other delays are also ignored. 
+
+```R
+	#chance of having more than 325 vehicles per 30 min, during rush hour (7AM-10AM, 4PM-7PM)
+	#the average is 10/min, the chances of having more than 325 in a 30 minute period:
+	ppois((325/30), lambda = 10, lower=FALSE) 
+```
+[1] 0.4169602   
+
+```R
+	#chance of having more than 325 vehicles per 30 min, during non-rush hour (10AM-4PM)
+	#the average is 3/min, the chances of having more than 325 in a 30 minute period
+	ppois((325/30), lambda = 3, lower=FALSE) 
+```
+[1] 0.000292337  
+
+```R
+	#chance of having more than 325 vehicles per 30 min, during all other hours
+	#the average is 8/hr, the chances of having more than 325 in a 30 minute period
+	ppois((325/30), lambda = 8/60, lower=FALSE)
+```
+[1] 5.249437e-18  
+
