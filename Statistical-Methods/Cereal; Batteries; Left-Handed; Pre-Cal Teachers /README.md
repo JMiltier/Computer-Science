@@ -20,7 +20,8 @@ P(X ≥ 490) = e-490/1000 = 0.612626… => 61.26%
 ![short-term integral](battery-short-term-integral.png)  
 The integral for the short-term batteries equates to 0.758795.. => 75.88%  
 *Probability that the battery lasts at least 490 hours:*   
-![490 hour battery](battery-490-hours.png) = ~64.18%  
+![490 hour battery](battery-490-hours.png)  
+= ~64.18%  
 
 #### Probability that a battery (picked from random) lasts at least 490 hours AND is a short-term battery.  
 Knowing that picking a short-term battery is 75.88%, a 1-in-5 (20%) chance of picking a short-term batteries estimates a (0.2 * 0.7588) 15.18% chance.  
