@@ -1,5 +1,4 @@
-### Long-lasting batteries (most-expensive) VS short-term batteries (least expensive)
-
+## Long-lasting batteries (most-expensive) VS short-term batteries (least expensive)
 - Long-lasting batteries lifetime follows an exponential distribution with a mean of 1000 hours.
 - Short-term batteries lifetime follows a gamma distribution with a mean of 500 hours, and a variance of 200 hours.
 - For every short-term battery produced, four long-lasting batteries are produced.
@@ -28,7 +27,7 @@ Knowing that picking a short-term battery is 75.88%, a 1-in-5 (20%) chance of pi
 Then factoring in that a short-term battery lasted at least 490 hours: 15.18% / 64.18% = 23.65%
 This was approached using Bayes Theorem.
 
-### Are more than 80% of Americans right handed?
+## Are more than 80% of Americans right handed?
 Sample size: 500 (419 of those were right-handed)
 #### Hypothesis:  
 H<sub>0</sub>: p = 80%  H<sub>1</sub>: p > 80%  
