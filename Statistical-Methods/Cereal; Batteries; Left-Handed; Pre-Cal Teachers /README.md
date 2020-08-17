@@ -42,33 +42,33 @@ Since the p-value is less than or equal to the significant level (α) of .05, H<
 There is significant evidence to support that more than 80% of Americans are right-handed, with a significant level of 0.05.
 
 ## Linear Regression for cereal health rankings (from 77 different cereals)
-*manufacturer:* cereal manufacturer (G: General Mills, K: Kelloggs, N: Nabisco, O: Other)
-*calories:* calories per serving
-*protein:* grams of protein per serving
-*fat:* grams of fat per serving
-*sodium:* mg of sodium per serving
-*fiber:* grams of dietary fiber per serving
-*carbohydrates:* grams of complex carbohydrates per serving
-*sugars:* grams of sugar per serving
-*potassium:* mg of potassium per serving
-*vitamins:* percentage of total daily vitamins and minerals recommended by the FDA
-*shelf:* display shelf of the cereal (levels range from 1 to 3, counting up from the floor)
-*rating:* rating of the cereal by the FDA.
+*manufacturer:* cereal manufacturer (G: General Mills, K: Kelloggs, N: Nabisco, O: Other)  
+*calories:* calories per serving  
+*protein:* grams of protein per serving  
+*fat:* grams of fat per serving  
+*sodium:* mg of sodium per serving  
+*fiber:* grams of dietary fiber per serving  
+*carbohydrates:* grams of complex carbohydrates per serving  
+*sugars:* grams of sugar per serving  
+*potassium:* mg of potassium per serving  
+*vitamins:* percentage of total daily vitamins and minerals recommended by the FDA  
+*shelf:* display shelf of the cereal (levels range from 1 to 3, counting up from the floor)  
+*rating:* rating of the cereal by the FDA.  
 
 #### Histograms/log-transformed histograms (using R and cereal data from txt file)
 ![cereal histograms](cereal-histograms.png)  
 #### Correlating data using different predictor values (using R and cereal data from txt file)
-![cereal scatterplots](cereal-scatterplot.png)
-**The following predictor variables look to be correlated based on the scatterplots above:**
-- *Potassium & fiber:* linear
-- *Calories & rating:* linear
-- *Calories & sugar:* somewhat linear
-- *Carbs & sugar:* slightly linear
-- *Sodium & carbs:* slightly linear
-- *Sugars & calories:* slightly linear
-- *Carbs & potassium:* slightly linear
-- *Calories & carbs:* slightly linear
-#### Matrix notation for the first and last 5 observations (using R and cereal data from txt file)
-![cereal matrix](cereal-matrix.png)
-#### Fitting the model, using `lm()` in R.
-![model fit](cereal-full-model-fit.png)
+![cereal scatterplots](cereal-scatterplot.png)  
+**The following predictor variables look to be correlated based on the scatterplots above:**  
+- *Potassium & fiber:* linear  
+- *Calories & rating:* linear  
+- *Calories & sugar:* somewhat linear  
+- *Carbs & sugar:* slightly linear  
+- *Sodium & carbs:* slightly linear  
+- *Sugars & calories:* slightly linear  
+- *Carbs & potassium:* slightly linear  
+- *Calories & carbs:* slightly linear  
+#### Matrix notation for the first and last 5 observations (using R and cereal data from txt file)  
+![cereal matrix](cereal-matrix.png)  
+#### Fitting the model, using `lm()` in R.  
+![model fit](cereal-full-model-fit.png)  
