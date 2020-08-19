@@ -4,7 +4,7 @@
 - For every short-term battery produced, four long-lasting batteries are produced.
 
 #### Long-lasting batteries:  
-  X ~ Exponential(1000,1000^2)  
+  X ~ Exponential(1000,1000<sup>2</sup>)  
   β = 1000  
 
 #### Short-term batteries:  
@@ -73,3 +73,6 @@ There is significant evidence to support that more than 80% of Americans are rig
 ### Fitting the model, using `lm()` in R.  
 #### Full estimate model  
 ![model fit](cereal-full-model-fit.png)   
+
+## Regression Power: university pre-calculus test scores from four classes
+Regression model: Y<sub>i</sub> = 60 + 20x<sub>i</sub> + ϵ<sub>i</sub>. where ϵ<sub>i</sub> ~ N(0, 20<sup>2</sup>)
