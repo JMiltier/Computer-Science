@@ -70,5 +70,6 @@ There is significant evidence to support that more than 80% of Americans are rig
 - *Calories & carbs:* slightly linear  
 #### Matrix notation for the first and last 5 observations (using R and cereal data from txt file)  
 ![cereal matrix](cereal-matrix-updated.png)  
-#### Fitting the model, using `lm()` in R.  
-![model fit](cereal-full-model-fit.png)  
+### Fitting the model, using `lm()` in R.  
+#### Full estimate model  
+![model fit](cereal-full-model-fit.png)   
