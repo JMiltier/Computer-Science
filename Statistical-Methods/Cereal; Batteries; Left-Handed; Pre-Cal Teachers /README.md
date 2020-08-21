@@ -75,4 +75,10 @@ There is significant evidence to support that more than 80% of Americans are rig
 ![model fit](cereal-full-model-fit.png)   
 
 ## Regression Power: university pre-calculus test scores from four classes
-<emph>Regression model:</emph> Y<sub>i</sub> = 60 + 20x<sub>i</sub> + ϵ<sub>i</sub>. where ϵ<sub>i</sub> ~ N(0, 20<sup>2</sup>)
+Regression model: Y<sub>i</sub> = 60 + 20x<sub>i</sub> + ϵ<sub>i</sub>. where ϵ<sub>i</sub> ~ N(0, 20<sup>2</sup>) Y<sub>i</sub> is the midterm 1 score for the *i<sup>th</sup>* student and *x<sub>i</sub>* is the indicator variable that equals 1 if student *i* took pre-cal in high-school.
+Since x<sub>i</sub> (number of students who took pre-cal in high-school) is 0 and the combination of β<sub>1</sub> becomes NULL, the Regression model is now:  
+*Y<sub>i</sub> = 60 + 0 + ϵ<sub>i</sub>*
+Parameters for the regression model:  
+  - *B<sub>0</sub>*: mean score (y-intercept) for students who didn't take pre-cal in HS
+  - *B<sub>1</sub>*: increase in test score if the student took pre-cal in HS
+  - *ϵ<sub>i</sub>*: factors in the error amount for the regression line for the *i<sup>th</sup>* student
