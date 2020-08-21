@@ -75,4 +75,4 @@ There is significant evidence to support that more than 80% of Americans are rig
 ![model fit](cereal-full-model-fit.png)   
 
 ## Regression Power: university pre-calculus test scores from four classes
-Regression model: Y<sub>i</sub> = 60 + 20x<sub>i</sub> + ϵ<sub>i</sub>. where ϵ<sub>i</sub> ~ N(0, 20<sup>2</sup>)
+<emph>Regression model:</emph> Y<sub>i</sub> = 60 + 20x<sub>i</sub> + ϵ<sub>i</sub>. where ϵ<sub>i</sub> ~ N(0, 20<sup>2</sup>)
